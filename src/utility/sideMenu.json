@@ -1,0 +1,34 @@
+[
+    {
+     "image":"../images/MyProfile.imageset/profile.png",
+     "title":"My Profile"
+ },
+ {
+     "image":"require('../images/MyNotes.imageset/create_note_.png')",
+     "title":"My Notes"
+ },
+ {
+     "image":"require('../images/Sponsors.imageset/sponsors.png')",
+     "title":"Sponsors"
+ },
+ { "image":"require('../images/helpDesk.imageset/help.png')",
+     "title":"Help Desk"
+ },
+ {
+     "image":"require('../images/About.imageset/about.png')",
+     "title":"About Kellton Tech"
+ },
+ {
+     "image":"require('../images/About.imageset/about.png')",
+     "title":"About NATC 2018"
+ },
+ {
+     "image":"require('../images/feedback.imageset/feedback.png')",
+     "title":"Submit Feedback"
+ },
+ {
+     "image":"require('../images/Logout.imageset/logout.png')",
+     "title":"Log Out"
+ }
+ 
+ ]
