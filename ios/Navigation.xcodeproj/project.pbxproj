@@ -52,6 +52,8 @@
 		6B478336C4E148518024CAB6 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19EDF7F7EF1040429F760A12 /* Octicons.ttf */; };
 		2D6E723EC29046AFB67B79D6 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CCFB2301C214080BD5B7730 /* SimpleLineIcons.ttf */; };
 		C38E23E883024171B05A7FB7 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D41C4BDA07B542D2A8210266 /* Zocial.ttf */; };
+		024C0F313C324A109C419340 /* ReactNativeSocialShare.app in Resources */ = {isa = PBXBuildFile; fileRef = 3683632BCA314784AB33135A /* ReactNativeSocialShare.app */; };
+		22F74BF67DC948DDBC5C189D /* ReactNativeSocialShareTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 431B817700AA4D3CBA906A0F /* ReactNativeSocialShareTests.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -373,6 +375,9 @@
 		19EDF7F7EF1040429F760A12 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		9CCFB2301C214080BD5B7730 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		D41C4BDA07B542D2A8210266 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73E9446A501743BE852B18B3 /* ReactNativeSocialShare.xcodeproj */ = {isa = PBXFileReference; name = "ReactNativeSocialShare.xcodeproj"; path = "../node_modules/react-native-social-share/ReactNativeSocialShare.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		3683632BCA314784AB33135A /* ReactNativeSocialShare.app */ = {isa = PBXFileReference; name = "ReactNativeSocialShare.app"; path = "ReactNativeSocialShare.app"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.application; explicitFileType = undefined; includeInIndex = 0; };
+		431B817700AA4D3CBA906A0F /* ReactNativeSocialShareTests.xctest */ = {isa = PBXFileReference; name = "ReactNativeSocialShareTests.xctest"; path = "ReactNativeSocialShareTests.xctest"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.cfbundle; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +406,8 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				6FA9102603D9420C91068156 /* libRNVectorIcons.a in Frameworks */,
+				024C0F313C324A109C419340 /* ReactNativeSocialShare.app in Resources */,
+				22F74BF67DC948DDBC5C189D /* ReactNativeSocialShareTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +595,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				96AFC276F0B946A8BCDF939F /* RNVectorIcons.xcodeproj */,
+				73E9446A501743BE852B18B3 /* ReactNativeSocialShare.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1253,10 +1261,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-social-share/iOS",
 				);
 			};
 			name = Debug;
@@ -1279,10 +1290,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-social-share/iOS",
 				);
 			};
 			name = Release;
@@ -1306,6 +1320,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-social-share/iOS",
 				);
 			};
 			name = Debug;
@@ -1328,6 +1343,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-social-share/iOS",
 				);
 			};
 			name = Release;
@@ -1358,10 +1374,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-social-share/iOS",
 				);
 			};
 			name = Debug;
@@ -1392,10 +1411,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-social-share/iOS",
 				);
 			};
 			name = Release;
@@ -1425,10 +1447,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-social-share/iOS",
 				);
 			};
 			name = Debug;
@@ -1458,10 +1483,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-social-share/iOS",
 				);
 			};
 			name = Release;
